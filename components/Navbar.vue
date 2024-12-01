@@ -9,6 +9,8 @@
         <li><nuxt-link to="/Comp4">Component 4</nuxt-link></li>
         <li><nuxt-link to="/Comp5">Component 5</nuxt-link></li>
         <li><nuxt-link to="/Comp6">Component 6</nuxt-link></li>
+        <li><nuxt-link to="/Comp7">Component 7</nuxt-link></li>
+      
   
       </ul>
     </nav>
