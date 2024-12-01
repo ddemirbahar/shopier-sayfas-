@@ -11,6 +11,7 @@
         <li><nuxt-link to="/Comp6">Component 6</nuxt-link></li>
         <li><nuxt-link to="/Comp7">Component 7</nuxt-link></li>
         <li><nuxt-link to="/Comp8">Component 8</nuxt-link></li>
+        <li><nuxt-link to="/Footer">Footer</nuxt-link></li>
   
       </ul>
     </nav>
