@@ -2,16 +2,9 @@
     <nav>
       <ul>
         <li><nuxt-link to="/">Ana Sayfa</nuxt-link></li>
-        <li><nuxt-link to="/Header">Component 1</nuxt-link></li>
-        <li><nuxt-link to="/component2">Component 2</nuxt-link></li>
-        <li><nuxt-link to="/component3">Component 3</nuxt-link></li>
-        <li><nuxt-link to="/component4">Component 4</nuxt-link></li>
-        <li><nuxt-link to="/component5">Component 5</nuxt-link></li>
-        <li><nuxt-link to="/component6">Component 6</nuxt-link></li>
-        <li><nuxt-link to="/component7">Component 7</nuxt-link></li>
-        <li><nuxt-link to="/component8">Component 8</nuxt-link></li>
-        <li><nuxt-link to="/component9">Component 9</nuxt-link></li>
-        <li><nuxt-link to="/component10">Component 10</nuxt-link></li>
+        <li><nuxt-link to="/Header">Header</nuxt-link></li>
+        <li><nuxt-link to="/Comp1">Component 1</nuxt-link></li>
+  
       </ul>
     </nav>
   </template>
