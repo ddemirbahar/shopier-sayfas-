@@ -6,6 +6,7 @@
         <li><nuxt-link to="/Comp1">Component 1</nuxt-link></li>
         <li><nuxt-link to="/Comp2">Component 2</nuxt-link></li>
         <li><nuxt-link to="/Comp3">Component 3</nuxt-link></li>
+        <li><nuxt-link to="/Comp4">Component 4</nuxt-link></li>
   
       </ul>
     </nav>
