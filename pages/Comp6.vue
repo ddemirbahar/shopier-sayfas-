@@ -44,18 +44,17 @@
     description: string;
   }
   
-  // Buton tıklanarak seçilen kartları belirlemek için bir fonksiyon
   const selectedSet = ref(1);
   const cards = ref<CardItem[]>([]);
   
   const setData = [
-    // Buton 1 için kart verisi
+    
     [
       { icon: '/images/security-payment.png', title: 'Kredi Kartı Tahsilatı', description: 'Shopier dükkanınızda kredi kartı ile ödeme almak çok kolay. Müşterilerinizin kredi kartı veya banka kartı ile ödeme yapabilmesi için Shopiere üye olmanız yeterli.' },
       { icon: '/images/folder.png', title: 'Ödeme Güvencesi', description: 'Ödeme alma güvencesi olmadan ürünlerinizi göndermenize gerek yok. Shopier ile tüm siparişler ödeme işlemleri tamamlandıktan sonra işleme alınır ve tahsilatlarınız güvence altındadır.' },
       { icon: '/images/cart.png', title: 'Risksiz Gönderi', description: 'Kapıda ödemelerde yaşanılan çeşitli ödeme riskleri ve sorunları Shopier ile ortadan kalkar. Risksiz gönderi sayesinde kargo firmalarının tahsilat ücretlerine ve sürelerine bağlı kalmazsınız.' },
     ],
-    // Buton 2 için kart verisi
+    
     [
       { icon: '/images/folder.png', title: 'Güven Unsuru', description: 'Satıcıyı tanımadığınız veya güvenemediğiniz için çok istediğiniz bir ürünü kaçırmazsınız. Shopier hem alıcı hem satıcının haklarını korur, tüm alışverişlerinizi karşılıklı olarak kolay ve güvenli hale getirir.' },
       { icon: '/images/cart.png', title: 'Sorunsuz Sipariş', description: 'Beğenip almak istediğiniz bir ürünün ücretini satıcının banka hesabına gönderip ürünüm acaba gelecek mi diye endişelenmenize gerek yok. Siparişinizi kredi kartınız ile güvenli biçimde verebilirsiniz.' },
@@ -63,7 +62,7 @@
     ],
   ];
   
-  // Başlık ve kartları güncelleme
+  
   const selectCards = (buttonNumber: number) => {
     selectedSet.value = buttonNumber;
     cards.value = setData[buttonNumber - 1]; 

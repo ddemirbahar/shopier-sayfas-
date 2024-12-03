@@ -108,18 +108,18 @@
     border: none;
     color: black;
     cursor: pointer;
-    white-space: nowrap; /* Yazıyı tek satıra yerleştirir */
-    display: inline-flex; /* İçeriği tek satırda hizalar */
-    align-items: center; /* İçeriği dikeyde ortalar */
-    justify-content: center; /* İçeriği yatayda ortalar */
+    white-space: nowrap; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
   }
   .dropdown:hover{
-    border: 2px solid aquamarine; /* Aqua rengi dış kenar */
+    border: 2px solid aquamarine; 
   
   }
   
   .dropdown-button::after {
-    content: "˅"; /* Ok işareti */
+    content: "˅"; 
     font-size: 12px;
     color: aquamarine;
     margin-left: 8px;
@@ -127,7 +127,7 @@
   }
   
   .dropdown.open .dropdown-button::after {
-    content: "˄"; /* Menü açıldığında ok yukarıya döner */
+    content: "˄"; 
   
   }
   
@@ -153,17 +153,17 @@
   .dropdown-menu li a {
     color: black;
     text-decoration: none;
-    white-space: nowrap; /* Yazıyı tek satıra yerleştirir */
-    display: inline-flex; /* İçeriği tek satırda hizalar */
-    align-items: center; /* İçeriği dikeyde ortalar */
-    justify-content: center; /* İçeriği yatayda ortalar */
+    white-space: nowrap; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
   }
   
   .dropdown-menu li a:hover {
     background-color: #f1f1f1;
   }
   
-  /* "Fiyatlama" bağlantısı stili */
+  
   .menu-link {
     color: black;
     text-decoration: none;
@@ -177,29 +177,29 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
-    white-space: nowrap; /* Yazıyı tek satıra yerleştirir */
-    display: inline-flex; /* İçeriği tek satırda hizalar */
-    align-items: center; /* İçeriği dikeyde ortalar */
-    justify-content: center; /* İçeriği yatayda ortalar */
+    white-space: nowrap; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
   }
   
   .hesap:hover {
     color: grey;
   }
-  /* Ücretsiz Üye Ol Butonu */
+  
   .üye {
     background-color: transparent;
-    border: 2px solid aquamarine; /* Aqua rengi dış kenar */
-    color: black; /* Butonun metni */
+    border: 2px solid aquamarine; 
+    color: black; 
     text-decoration: none;
     padding: 8px 16px;
     cursor: pointer;
     border-radius: 4px;
     display: flex;
-    white-space: nowrap; /* Yazıyı tek satıra yerleştirir */
-    display: inline-flex; /* İçeriği tek satırda hizalar */
-    align-items: center; /* İçeriği dikeyde ortalar */
-    justify-content: center; /* İçeriği yatayda ortalar */
+    white-space: nowrap; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
   }
   
   .üye:hover {

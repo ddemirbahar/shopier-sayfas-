@@ -5,10 +5,8 @@
   
       <!-- Metin ve Buton Grupları -->
       <div class="content-group">
-        <!-- Metin -->
         <h2 class="description">{{ content.text }}</h2>
   
-        <!-- Butonlar -->
         <div class="button-group">
           <button v-for="(button, index) in content.buttons" :key="index" class="icon-button">
             <img :src="`/images/${button.image}`" :alt="'Button ' + (index + 1)" />

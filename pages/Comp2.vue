@@ -5,12 +5,10 @@
         v-for="(feature, index) in features" 
         :key="index"
       >
-        <!-- Dinamik ikon -->
         <div class="icon-circle">
           <img :src="`/images/${feature.icon}`" :alt="feature.altText" class="logo" />
         </div>
   
-        <!-- Dinamik başlık ve açıklama -->
         <p class="feature-text">
           <h3>{{ feature.title }}</h3>
           {{ feature.description }}
@@ -20,12 +18,12 @@
   </template>
   
   <script setup lang="ts">
-  // FeatureItem için bir arayüz (interface) tanımlıyoruz
+  // FeatureItem için bir arayüz (interface) tanımlaması
   interface FeatureItem {
-    icon: string; // İkonun dosya adı
-    altText: string; // İkonun açıklaması (alt metni)
-    title: string; // Başlık
-    description: string; // Açıklama
+    icon: string; 
+    altText: string; 
+    title: string; 
+    description: string; 
   }
   
   // Özelliklerin listesi

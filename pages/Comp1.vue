@@ -14,7 +14,7 @@
   </template>
   
   <script setup lang="ts">
-  // Şu anlık script kısmında bir işlem gerekmiyor
+  
   </script>
   
   <style scoped>

@@ -26,7 +26,7 @@
         </ul>
       </div>
   
-      <!-- Diğer Teknoloji -->
+      
       <div class="footer-column">
         <h3>Değer Teknoloji A.Ş.</h3>
         <p>İçerenköy Mh. Umut Sk. AND Plaza</p>
@@ -34,7 +34,7 @@
         <p>İstanbul, TÜRKİYE</p>
       </div>
   
-      <!-- Bize Ulaşın -->
+      
       <div class="footer-column">
         <h3>Bize Ulaşın</h3>
         <p>Telefon: 0 (850) 840 15 10</p>

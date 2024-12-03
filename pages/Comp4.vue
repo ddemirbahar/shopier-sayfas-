@@ -64,7 +64,7 @@
 }
 
 .split-section {
-  width: 45%; /* Her iki tarafı da %45 genişliğinde yapalım */
+  width: 45%; 
 }
 
 .row {

@@ -9,7 +9,6 @@
           <p class="feature-description">{{ leftDescriptions[index] }}</p>
         </div>
   
-        <!-- Renkli container (ikiye bölünmüş) -->
         <div class="colored-footer">
           <div class="colored-left">
             <h3>Yurt İçi</h3>
@@ -23,7 +22,6 @@
           </div>
         </div>
   
-        <!-- Renkli container altındaki yazı -->
         <p class="below-colored-footer-text">
           * Taksitli işlemler ek ücrete tabidir. <br />
           * Belirtilen ücretlere KDV dahildir.
@@ -37,7 +35,6 @@
           <p>{{ item.description }}</p>
         </div>
   
-        <!-- Sağ taraftaki buton -->
         <button class="right-button">Ücretsiz Üye Ol</button>
       </div>
     </div>
@@ -105,17 +102,17 @@
     gap: 50px;
     padding: 20px;
     background-color: white;
-    justify-content: center; /* Yatayda ortalama */
-    align-items: center; /* Dikeyde ortalama */
-    width: 100%; /* Yüzde 100 genişlik, ama flexbox ile ortalanacak */
-    max-width: 1200px; /* Maksimum genişlik */
-    margin: 0 auto; /* Container'ı ortalamak için */
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
   }
   
   .left-side {
-  flex: 0.5; /* Flex değeri ile boyutu küçültüyoruz */
+  flex: 0.5; 
   background-color: #eefaf8;
-  padding: 15px; /* Padding'i azaltarak alanı küçültüyoruz */
+  padding: 15px; 
   
   display: flex;
   flex-direction: column;
@@ -123,7 +120,7 @@
 }
 .left-side, .right-side {
   flex: 1;
-  max-width: 500px; /* Sol ve sağ tarafı aynı oranda küçültmek için max-width belirleyin */
+  max-width: 500px; 
   width: 100%;
 }
   
@@ -134,13 +131,13 @@
   }
   
   .left-item {
-    margin-bottom: 20px; /* Her başlık ve açıklama arasına mesafe ekliyoruz */
+    margin-bottom: 20px; 
   }
   
   .left-item h3 {
     font-size: 18px;
     color: #333;
-    margin-bottom: 10px; /* Başlık ile açıklama arasındaki mesafeyi açıyoruz */
+    margin-bottom: 10px; 
   }
   
   .feature-description {
