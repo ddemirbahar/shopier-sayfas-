@@ -31,7 +31,7 @@
               <button class="language-button" @click="changeLanguage('en')">en</button>
             </div>
             <a href="/pricing" class="hesap">Hesaba Giriş</a>
-            <a href="/pricing" class="üye">Ücretsiz Üye Ol</a>
+            <nuxt-link to="/SignUp" class="üye">Ücretsiz Üye Ol</nuxt-link>
           </div>
         </div>
       </div>
