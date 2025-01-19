@@ -35,7 +35,7 @@
           <p>{{ item.description }}</p>
         </div>
   
-        <button class="right-button">Ücretsiz Üye Ol</button>
+        <nuxt-link to="/SignUp" class="right-button">Ücretsiz Üye Ol</nuxt-link>
       </div>
     </div>
   </template>

@@ -4,7 +4,8 @@
       <div class="left">
         <h1 class="title">İstediğiniz yerde kolayca satış yapın!</h1>
         <h3 class="paragraf">Shopier size, istediğiniz platform üzerinde çalışan bir alışveriş ve ödeme otomasyonu sunar. Ürünlerinizin satışını Shopier ile sosyal medya hesaplarınızda, kendi internet sitenizde veya çeşitli pazaryerlerinde kolayca yapabilirsiniz. Hatta bunlardan biri olmasa bile, Shopier üzerinde hemen bir dükkan açıp satış yapmaya başlayabilirsiniz!</h3>
-        <button class="action-button">ÜCRETSİZ Üye Ol</button>
+        <nuxt-link to="/SignUp" class="action-button">Ücretsiz Üye Ol</nuxt-link>
+
       </div>
       <!-- Sağ taraf -->
       <div class="right">
@@ -53,7 +54,7 @@
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-  
+  justify-content:center ;
   }
   
   .action-button:hover {

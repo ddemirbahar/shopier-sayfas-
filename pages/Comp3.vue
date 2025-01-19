@@ -5,7 +5,8 @@
       
         <div class="button-wrapper">
           <p class="button-text"><h2 class="h2text">SHOPİER <h2 class="text">ile takiçilerinizi </h2> <h2 class="text">müşterilerinize dönüştürmek</h2> <h2 class="text">ister misiniz?</h2></h2></p>
-          <button class="button">ÜCRETSİZ Üye Ol</button>
+          <nuxt-link to="/SignUp" class="button">Ücretsiz Üye Ol</nuxt-link>
+
         </div>
       </div>
     </div>

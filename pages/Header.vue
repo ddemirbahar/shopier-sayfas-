@@ -30,7 +30,7 @@
               <button class="language-button" @click="changeLanguage('tr')">tr</button>
               <button class="language-button" @click="changeLanguage('en')">en</button>
             </div>
-            <a href="/pricing" class="hesap">Hesaba Giriş</a>
+            <nuxt-link to="/LogIn" class="hesap">Hesaba Giriş</nuxt-link>
             <nuxt-link to="/SignUp" class="üye">Ücretsiz Üye Ol</nuxt-link>
           </div>
         </div>
@@ -174,6 +174,9 @@
     color: grey;
   }
   .hesap {
+    position: relative;
+    z-index: 10; 
+    display: inline-flex;
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -181,6 +184,7 @@
     display: inline-flex; 
     align-items: center; 
     justify-content: center; 
+    
   }
   
   .hesap:hover {
